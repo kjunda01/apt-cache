@@ -2,7 +2,7 @@
 
 # Defina os novos dados do sources.list
 new_sources="
-eb http://192.168.1.199:3142/archive.ubuntu.com/ubuntu/ jammy main restricted
+deb http://192.168.1.199:3142/archive.ubuntu.com/ubuntu/ jammy main restricted
 deb-src http://192.168.1.199:3142/archive.ubuntu.com/ubuntu/ jammy main restricted
 deb http://192.168.1.199:3142/archive.ubuntu.com/ubuntu/ jammy-updates main restricted
 deb-src http://192.168.1.199:3142/archive.ubuntu.com/ubuntu/ jammy-updates main restricted
