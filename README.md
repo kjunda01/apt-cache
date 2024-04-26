@@ -12,13 +12,13 @@ git clone https://github.com/kjunda01/apt-cache
 2. **Permissões do Script:** Após clonar o repositório, dê permissões de execução ao script:
 
 ```
-chmod +x setup_cache_server.sh
+chmod +x update_sources.sh
 ```
 
 3. **Execução do Script:** Execute o script bash para configurar o servidor de cache de pacotes APT
 
 ```
-./setup_cache_server.sh
+./update_sources.sh
 ```
 
 4. **Acesso ao Servidor de Cache:** Uma vez configurado, você poderá usar o servidor de cache para acelerar o processo de instalação e atualização de pacotes em seus sistemas Ubuntu.
