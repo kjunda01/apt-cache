@@ -2,9 +2,9 @@
 
 # Defina os novos dados do sources.list
 new_sources="
-deb http://192.168.1.111:3142/archive.ubuntu.com/ubuntu jammy main universe multiverse
-deb http://192.168.1.111:3142/archive.ubuntu.com/ubuntu jammy-updates main universe multiverse
-deb http://192.168.1.111:3142/security.ubuntu.com/ubuntu jammy-security main universe multiverse
+deb http://apt-cache/archive.ubuntu.com/ubuntu jammy main universe multiverse
+deb http://apt-cache/archive.ubuntu.com/ubuntu jammy-updates main universe multiverse
+deb http://apt-cache/security.ubuntu.com/ubuntu jammy-security main universe multiverse
 "
 
 # Salve os novos dados em um arquivo temporário
